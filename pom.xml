@@ -1,10 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.harawata</groupId>
   <artifactId>mybatis-gizmo-provider</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>mybatis-gizmo-provider</name>
   <description>A simple SQL provider that auto-generates INSERT, UPDATE and
     UPSERT statements.</description>
@@ -19,6 +17,7 @@
     <url>https://github.com/harawata/mybatis-gizmo-provider</url>
     <connection>scm:git:ssh://github.com/harawata/mybatis-gizmo-provider.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/harawata/mybatis-gizmo-provider.git</developerConnection>
+    <tag>mybatis-gizmo-provider-1.0.0</tag>
   </scm>
   <developers>
     <developer>
