@@ -15,6 +15,11 @@
       <url>http://www.opensource.org/licenses/mit-license.php</url>
     </license>
   </licenses>
+  <scm>
+    <url>https://github.com/harawata/mybatis-gizmo-provider</url>
+    <connection>scm:git:ssh://github.com/harawata/mybatis-gizmo-provider.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/harawata/mybatis-gizmo-provider.git</developerConnection>
+  </scm>
   <developers>
     <developer>
       <name>Iwao AVE!</name>
