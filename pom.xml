@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.harawata</groupId>
   <artifactId>mybatis-gizmo-provider</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>mybatis-gizmo-provider</name>
   <description>A simple SQL provider that auto-generates INSERT, UPDATE and
     UPSERT statements.</description>
@@ -17,7 +17,7 @@
     <url>https://github.com/harawata/mybatis-gizmo-provider</url>
     <connection>scm:git:ssh://github.com/harawata/mybatis-gizmo-provider.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/harawata/mybatis-gizmo-provider.git</developerConnection>
-    <tag>mybatis-gizmo-provider-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
