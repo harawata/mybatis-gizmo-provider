@@ -23,11 +23,8 @@
  */
 package org.apache.ibatis.builder.annotation;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Disabled;
-
 import static org.apache.ibatis.builder.annotation.MysqlProviderTest.paramMap;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 

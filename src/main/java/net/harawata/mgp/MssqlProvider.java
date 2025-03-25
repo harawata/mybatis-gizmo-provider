@@ -42,8 +42,9 @@ public class MssqlProvider extends GizmoProvider {
   public StringBuilder upsert(Object bean, ProviderContext context) {
     String mapperMethodName = context.getMapperMethod().getName();
     String[] keyColumns = mapperMethodName.split("On(?=[A-Z])|And(?=[A-Z])");
-    if(keyColumns.length == 1) {
-      throw new IllegalArgumentException("Upsert requires key column name(s) after 'On' e.g. 'upsertSomeBeanOnId(Bean bean)'");
+    if (keyColumns.length == 1) {
+      throw new IllegalArgumentException(
+          "Upsert requires key column name(s) after 'On' e.g. 'upsertSomeBeanOnId(Bean bean)'");
     }
 
     CharSequence src = escape(SRCTABLE);
@@ -61,7 +62,6 @@ public class MssqlProvider extends GizmoProvider {
     StringBuilder matched = new StringBuilder(") when matched then update set ");
     StringBuilder notMatched = new StringBuilder(" when not matched then insert (");
     StringBuilder values = new StringBuilder(") values (");
-
 
     for (int i = 0; i < fields.size(); i++) {
       if (i > 0) {
